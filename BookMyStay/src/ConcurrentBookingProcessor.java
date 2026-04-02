@@ -24,7 +24,7 @@ public class ConcurrentBookingProcessor implements Runnable {
     @Override
     public void run() {
         while (true) {
-            Reservation request = null;
+            Reservation request =null;
 
             // Synchronized block to safely pull from the shared queue
             synchronized (queue) {

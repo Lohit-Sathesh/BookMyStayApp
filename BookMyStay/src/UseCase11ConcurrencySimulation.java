@@ -6,7 +6,7 @@
  * * Demonstrates system stability under multi-threaded load.
  * * @version 11.0
  */
-public class UseCase11ConcurrencySimulation {
+public class UseCase11ConcurrencySimulation{
 
     public static void main(String[] args) {
         System.out.println("=== Book My Stay: Thread Safety Simulation (v11.0) ===");
